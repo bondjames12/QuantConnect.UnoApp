@@ -16,6 +16,6 @@
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
   <ItemGroup Condition="$(UsingUnoSdk) != 'true'">
-    <PackageVersion Include="Uno.Wasm.Bootstrap.Server" Version="8.0.21" />
+    <PackageVersion Include="Uno.Wasm.Bootstrap.Server" Version="9.0.8" />
   </ItemGroup>
 </Project>
