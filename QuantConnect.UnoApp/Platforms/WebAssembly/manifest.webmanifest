@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "QuantConnect.UnoApp",
+  "display": "standalone",
+  "name": "QuantConnect.UnoApp",
+  "short_name": "QuantConnect.UnoApp",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

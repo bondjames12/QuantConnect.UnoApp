@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantConnect.UnoApp", "QuantConnect.UnoApp\QuantConnect.UnoApp.csproj", "{4BE097A7-8E48-4D02-875A-E73370E26F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantConnect.UnoApp.Server", "QuantConnect.UnoApp.Server\QuantConnect.UnoApp.Server.csproj", "{B9B4B4A7-A058-44CB-B354-021E5B916E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantConnect.UnoApp.DataContracts", "QuantConnect.UnoApp.DataContracts\QuantConnect.UnoApp.DataContracts.csproj", "{AA0822C3-B2F0-4E04-886E-CDC14F92C122}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B43AE83D-0154-41CC-A60A-11487D72918A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantConnect.UnoApp.Tests", "QuantConnect.UnoApp.Tests\QuantConnect.UnoApp.Tests.csproj", "{4A74BF76-8D1A-48C3-A92E-9A2E4505F404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ABEDF4F7-BA8D-4CEC-8B6D-47BEE862C833}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BE097A7-8E48-4D02-875A-E73370E26F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE097A7-8E48-4D02-875A-E73370E26F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE097A7-8E48-4D02-875A-E73370E26F01}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4BE097A7-8E48-4D02-875A-E73370E26F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE097A7-8E48-4D02-875A-E73370E26F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE097A7-8E48-4D02-875A-E73370E26F01}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B9B4B4A7-A058-44CB-B354-021E5B916E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B4B4A7-A058-44CB-B354-021E5B916E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B4B4A7-A058-44CB-B354-021E5B916E7F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B9B4B4A7-A058-44CB-B354-021E5B916E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B4B4A7-A058-44CB-B354-021E5B916E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B4B4A7-A058-44CB-B354-021E5B916E7F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AA0822C3-B2F0-4E04-886E-CDC14F92C122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0822C3-B2F0-4E04-886E-CDC14F92C122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0822C3-B2F0-4E04-886E-CDC14F92C122}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AA0822C3-B2F0-4E04-886E-CDC14F92C122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0822C3-B2F0-4E04-886E-CDC14F92C122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA0822C3-B2F0-4E04-886E-CDC14F92C122}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4A74BF76-8D1A-48C3-A92E-9A2E4505F404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A74BF76-8D1A-48C3-A92E-9A2E4505F404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A74BF76-8D1A-48C3-A92E-9A2E4505F404}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4A74BF76-8D1A-48C3-A92E-9A2E4505F404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A74BF76-8D1A-48C3-A92E-9A2E4505F404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A74BF76-8D1A-48C3-A92E-9A2E4505F404}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A74BF76-8D1A-48C3-A92E-9A2E4505F404} = {B43AE83D-0154-41CC-A60A-11487D72918A}
+	EndGlobalSection
+EndGlobal
